@@ -1,0 +1,295 @@
+	.col-1 {width: 14.27%;}
+	.col-2 {width: 25%;}
+	.col-3 {width: 100%;}
+	.col-4 {width: 50%;}
+	.col-5 {width: 5%;}
+	.col-6 {width: 95%;}
+	.col-7 {width: 33.33%;}
+	.col-8 {width: 11.11%;}
+	.col-9 {width: 65%;}
+	.col-10 {width: 15%;}
+* { 	 	
+	box-sizing: border-box;
+  }
+  	a:hover{
+		color: red;
+	}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+		
+[class*="col-"] {
+	float: left;
+    padding: 15px;
+	}
+
+body{
+	margin: 0;
+}
+
+#menu-superior{
+	background-color: #FD83B6;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#sub-buscador{
+	background-color:#940C3D;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+}
+.prueba:hover{
+	background-color: #ff488b;
+	color: black;
+	font-family: bolder;
+}
+
+.menu{
+	text-align: center;
+}
+
+.prueba{
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff347e;
+	border-radius: 7px;
+	font-size: 10pt;
+	height: 35px;
+	color: white;
+}
+
+div.buscador {
+	border:none;
+	background-color: white;
+	height: 30px;
+	width: 500px;
+	border-radius: 10px;
+	padding:5px;
+}
+
+input.buscar {
+	border: 0px;
+	width: 240px;
+	position: relative;
+	background: transparent;
+	outline: none;
+	bottom: 4px;
+	padding: 2px;
+}
+input.image_buscar {
+	width: 20px;
+	border: 0px;
+	position: relative;
+	top:1px;
+}
+
+input.image_camara {
+	width: 20px;
+	border: 0px;
+	position: relative;
+	top:1px;
+	float: right;
+}
+
+div.telefono, div.play{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+p.tel, p.store{
+	font-size: 12pt;
+	color: white;
+}
+
+.escritorio-1{
+	width: 640px;
+	height: 427px;
+}
+.escritorio-2{
+	width: 640px;
+	height: 427px;
+}
+
+.escritorio-3{
+	width: 640px;
+	height: 427px;
+}
+.escritorio-4{
+	width: 640px;
+	height: 427px;
+}
+
+div.texto-escritorio-1{
+	height: 427px;
+	background-color: #C64B68;
+	margin-top: 15px;
+	font-size: 20pt;
+	color: white;
+}
+
+.subtitulo-escritorio-1{
+		padding: 170px 170px 0px 0px;
+}
+
+.subtitulo-escritorio-2{
+		padding: 230px 170px 0px 0px;
+}
+div.texto-escritorio-2{	
+	height: 427px;
+	background-color: #C64B68;
+	margin-top: 15px;
+	font-size: 20pt;
+	color: white;
+}
+
+.nombre-tienda{
+	font-size:96pt;
+	color: #940C3D;
+
+}
+.nombre-tienda-cursiva{
+	font-family: Oooh Baby;
+	color: #940C3D;
+	height: 370px;
+	font-size:30pt;
+	top: 66%;
+	padding: 170px 170px 170px 0px;
+}
+
+footer{
+	background-color:#FFA8C2;
+}
+#pie-pagina{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	top: 30%;
+	height: 100px;
+}
+
+div.titulo-pegajoso{
+	position: sticky;
+	top: 0;
+}
+
+.acerca-nosotros{
+	font-weight: bolder;
+	font-size: 40pt;
+	font-family: Arial;
+
+}
+.mesa{
+	width:428px;
+	height: 285px;
+	
+}
+.fondo-imagen{
+	width:428px;
+	height: 140px;
+	background-color: #940C3D;
+	color: white;
+
+}
+.carrito-compras{
+	float: right;
+	padding-top: 17px;
+}
+
+#password{
+	background-color: lightgrey;
+	border: none;
+}
+#username{
+	background-color: lightgrey;
+	border: none;
+}
+.boton_ingresar, .boton_registrar, .boton_cancelar, .boton_borrar{
+	border: none;
+	border-radius: 10px;
+	background-color: #940C3D;
+	color: white;
+	height: 30px;
+	width: 100px;
+}
+
+.carro-envio{
+	width: 200px;
+	height: 180px;
+}
+
+.paquete-envio{
+	width: 200px;
+	height: 180px;
+
+}
+
+.boton_asesor{
+	width: 200px;
+	height: 40px;
+	border-radius: 15px;
+	background-color: #940C3D;
+	color: white;
+	border: none;
+}
+.carrito-seleccion{
+	border-color: grey;
+	border-radius: 15px;
+}
+
+.caja, #correo_electronico, #apellidosusuario, #nombreusuario, #edadusuario, #telefonousuario, .caja-comentarios{
+	background-color: lightgrey;
+	border: none;
+}
+.boton-accesibilidad{
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	height: 50px;
+	width: 200px;
+}
+
+.mision,.vision,.filo,.valores{
+ color:white ;
+border-radius: 10px;
+}
+
+.codEtica{
+	background-color:#940C3D;
+}
+#identificador{
+	color: white;
+	background-color: #dd105b;
+}
+#referencias{
+	color: white;
+	background-color: #dd105b;
+}
+#informacionPie{
+	padding: 20px 100px 0 100px;
+}
+#sub-buscador{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.imagenes{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 20px;
+}
